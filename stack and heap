@@ -1,0 +1,21 @@
+## Stacck and Heap 
+stack : stack follows the principle LIFO  and every method has a sepearte stack 
+heap : it is a open source memory and it is used for create an object address
+example : class calculator 
+          {
+           int num;//instance variable
+           public int add(int n1 , int n2);
+           {
+               return n1 + n2;
+            }
+         }
+      }
+public class demo
+{
+public static void main(String args[]){
+    int data = 10;
+    calculator obj = new calculator();
+    int r1 = obj.add(n1: 3 , n2: 4);
+    System.out.println(r1);
+   }
+}
